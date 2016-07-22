@@ -1,11 +1,10 @@
-# README for Course 3 Project Assignment
+## README for Course 3 Project Assignment
 
-==================================================================
 ### Activity Tracking Dataset
-==================================================================
-Source of Datasets:   https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-==================================================================
-R Script:   run_analysis.R
+
+### Source of Datasets: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+### R Script:   run_analysis.R
 =========================================
 
 A summary of analysis performed to create tidy dataset with the average of each variable for each activity type and each subject.
