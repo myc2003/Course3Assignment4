@@ -21,9 +21,9 @@ Step 1
 Read in the following files from the source dataset (assumes the files have already been unzipped into the working directory):
    - 'features.txt': 561 features representing the measurements taken     
    - 'activity_labels.txt' : list of activities tracked and its activity number
-   - 'X_train.txt' : training data measurements
+   - 'X_train.txt' : training data measurements for each of the 561 variables
    - 'y_train.txt' : list of activity numbers and descriptions corresponding to each row of the training data results generated 
-   - 'X_test.txt' : test data measurements
+   - 'X_test.txt' : test data measurements for each of the 561 variables
    - 'y_test.txt' : list of activity numbers and descriptions corresponding to each row of the test data results generated 
    - 'subject_train.txt' : list of subjects by number who generated the training data
    - 'subject_test.txt' : list of subjects by number who generated the test data
