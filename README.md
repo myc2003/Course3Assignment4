@@ -31,13 +31,27 @@ Rename the column names for each file read in during Step 1 to be more descripti
 
 Step 4
 ------
-Merges the "Test" datasets 
+Combine the subjects, activities and measurement datasets for the test data into a single dataset.  Combine the subjects, activities and measurement datasets for the training data into a single dataset.  Combine the training and test datasets into a single dataset. 
   
+Step 5
+------
+Merge the combined dataset from Step 4 with the dataset containing the descriptions for each activity number to obtain a descriptive label for each activity number.
+
+Step 6
+------
+Identify the column headings corresponding to those that represent the mean and standard deviation for each type of measurement.  Determine the column indices for these columns, the Activity_Type column and the Subject_No. column for subsetting the combined dataset.
+
+Step 7
+------
+Determine the average of each variable measured for each activity type and each subject.  Rename the grouped columns with descriptive names.
+
+Step 8 
+------
+Create a tidy dataset out of the dataset generated in Step 7.  Rather than have each variable measured as column names, a new column is created called Measurement_Type to store the column names representing the various measurements taken for each activity type and subject.  The column storing the mean of each variable is renamed Average.
+
 
 Notes: 
 ======
-- Features are normalized and bounded within [-1,1].
-- Each feature vector is a row on the text file.
-
-For more information about this dataset contact: activityrecognition@smartlab.ws
+The tidy dataset was written to a file using the command:
+- write.table(tidySet, file="course4assign.txt",sep=",",rownames=FALSE,col,names= TRUE)
 
