@@ -1,6 +1,6 @@
 ## Codebook for Course 3 Project Assignment
 
-
+|-----------------|----------------------------|-----------:|
 |Variable Name    |Valid Values                |Units       |
 |-----------------|----------------------------|-----------:|
 |Activity_Type    |WALKING                     |n/a         |
