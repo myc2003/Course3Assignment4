@@ -2,10 +2,9 @@
 
 ### Activity Tracking Dataset and Analysis
 -----------------------------------------------
-Source of Datasets: 
+__Source of Datasets: __
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%0Dataset.zip
------------------------------------------------
-R Script:   
+__R Script:__
 run_analysis.R
 -----------------------------------------------
 
