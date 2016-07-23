@@ -2,16 +2,18 @@
 
 ### Activity Tracking Dataset and Analysis
 -----------------------------------------------
-Source of Datasets: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-
-R Script:   run_analysis.R
+Source of Datasets: 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%0Dataset.zip
+-----------------------------------------------
+R Script:   
+run_analysis.R
 -----------------------------------------------
 
 Summary of analysis performed to create a tidy dataset with the average of each variable for each activity type and subject.
 
 ### Step 1
 ----------
-Read in the following files from the source dataset (assumes the files have already been unzipped into the working directory from which the R script will be run):
+Read in the following files from the source dataset (**assumes the files have already been unzipped into the working directory from which the R script will be run**):
 - __features.txt__: 561 features representing the measurements taken     
 - __activity_labels.txt__ : list of activities tracked and its activity number
 - __X_train.txt__ : training data measurements for each of the 561 variables
@@ -23,11 +25,11 @@ Read in the following files from the source dataset (assumes the files have alre
 
 ### Step 2
 ----------
-Retrieve the information in the 'features.txt'.  
+Retrieve the various activity measurement names in the 'features.txt'.  
 
 ### Step 3
 ----------
-Rename the column names for each file read in during Step 1 to be more descriptive.  For example, the dataset read from the 'subTest.txt' file had its column renamed to Subject_No.  The X/y test and train datasets had column names renamed to correspond to the 561 different measurements retrieved during Step 3.
+Rename the column names for each file read in during Step 1 to be more descriptive.  For example, the dataset read from the 'subTest.txt' file had its column renamed to Subject_No.  The X/y test and train datasets had column names renamed to correspond to the 561 different activity measurements retrieved during Step 2.
 
 ### Step 4
 ----------
@@ -39,11 +41,13 @@ Merge the combined dataset from Step 4 with the dataset containing the descripti
 
 ### Step 6
 ----------
-Identify the column headings corresponding to those that represent the mean and standard deviation for each type of measurement.  Determine the column indices for these columns, the Activity_Type column and the Subject_No. column for subsetting the combined dataset.
+Identify the column headings corresponding to those that represent the mean and standard deviation for each type of measurement.  These Variables were those with "mean()" and "std() in its name. 
+
+Determine the column indices for these column headings, the Activity_Type column and the Subject_No. column for subsetting the combined dataset.
 
 ### Step 7
 ----------
-Determine the average of each variable measured for each activity type and each subject.  Rename the grouped columns with descriptive names.
+Determine the average of each variable measured for each activity type and subject.  Rename the group by columns with descriptive names.
 
 ### Step 8 
 ----------
