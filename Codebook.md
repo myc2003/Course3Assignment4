@@ -12,8 +12,9 @@
 |Subject_No.      |2        |A number used to   |1 - 30                      |n/a  |
 |                 |         |identify the test  |                            |     |
 |                 |         |subject            |                            |     | 
+|                 |         |                   |                            |     |
 |Measurement_Type |3        |Measurements being |tBodyAcc-mean()-X           |n/a  |
-|                 |         |tracked by the     |mtBodyAcc-mean()-Y          |n/a  |
+|                 |         |tracked by the     |tBodyAcc-mean()-Y           |n/a  |
 |                 |         |experiments        |tBodyAcc-mean()-Z           |n/a  |
 |                 |         |                   |tBodyAcc-std()-X            |n/a  |
 |                 |         |                   |tBodyAcc-std()-Y            |n/a  |
@@ -78,4 +79,9 @@
 |                 |         |                   |fBodyBodyGyroMag-std()      |n/a  |
 |                 |         |                   |fBodyBodyGyroJerkMag-mean() |n/a  |
 |                 |         |                   |fBodyBodyGyroJerkMag-std()  |n/a  |
-|Average          |4        |                   |value between -1 and 1      |n/a  |
+|                 |         |                   |                            |     |
+|Average          |4        |Mean of each of    |value between -1 and 1      |n/a  |
+|                 |         |the measurement    |                            |     |
+|                 |         |types by subject   |                            |     |
+|                 |         |and activity type  |                            |     |
+|                 |         |                   |                            |     |
