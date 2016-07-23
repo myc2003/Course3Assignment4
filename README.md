@@ -57,3 +57,5 @@ Create a tidy dataset out of the dataset generated in Step 7.  Since all the val
 ----------
 The tidy dataset (output from Step 8) was written to a file using the command:
 - write.table(tidySet, file="tidy_dataset.txt",sep=",",row.names=FALSE,col.names=TRUE)
+
+The accompanying Codebook provides the variable names, descriptions, valid values and units for the tidy dataset created in Step 8.
