@@ -2,12 +2,10 @@
 
 ### Activity Tracking Dataset and Analysis
 -----------------------------------------------
-__Source of Datasets: __ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+__Source of Datasets:__ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 __R Script:__ run_analysis.R
 
---
 Summary of analysis performed to create a tidy dataset with the average of each variable for each activity type and subject.
---
 
 ### Step 1
 ----------
