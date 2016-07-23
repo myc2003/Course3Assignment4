@@ -1,5 +1,7 @@
 ## Codebook for Course 3 Project Assignment
 
+#### For details on how the dataset was created, refer to the accompanying README file.
+
 |Variable Name    |Position |Description        |Valid Values                |Units|
 |:----------------|:--------|:------------------|:---------------------------|----:|
 |Activity_Type    |1        |Activity being     |WALKING                     |n/a  |
