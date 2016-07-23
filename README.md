@@ -22,7 +22,7 @@ Read in the following files from the source dataset (**assumes the files have al
 
 ### Step 2
 ----------
-Retrieve the various activity measurement names in the 'features.txt'.  
+Retrieve the various activity measurement names in the 'features.txt' file.  
 
 ### Step 3
 ----------
@@ -38,9 +38,11 @@ Merge the combined dataset from Step 4 with the dataset containing the descripti
 
 ### Step 6
 ----------
-Identify the column headings corresponding to those that represent the mean and standard deviation for each type of measurement.  These Variables were those with "mean()" and "std() in its name. 
+Identify the column headings corresponding to those that represent the mean and standard deviation for each type of measurement.  These variables were those with "mean()" and "std()" in its name. 
 
 Determine the column indices for these column headings, the Activity_Type column and the Subject_No. column for subsetting the combined dataset.
+
+Create a dataset with only the desired column headings from the combined dataset from Step 5.
 
 ### Step 7
 ----------
