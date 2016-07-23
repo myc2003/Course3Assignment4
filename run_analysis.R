@@ -66,8 +66,3 @@ tidySet <- melt(averageSet, id=c("Activity_Type","Subject_No."))
 
 colnames(tidySet)[3] <- "Measurement_Type"
 colnames(tidySet)[4] <- "Average"
-
-## delete before submission!!!!!!!!!!!!!!!
-## Write the tidy dataset to a file.
-
-## write.table(tidySet, file="course4assign.txt",sep=" ",row.names=FALSE,col.names=TRUE)
