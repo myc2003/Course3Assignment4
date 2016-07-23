@@ -13,7 +13,7 @@ xTrain    <- read.table("X_train.txt")
 yTest     <- read.table("y_test.txt")
 yTrain    <- read.table("y_train.txt")
 
-## Get the names of the various activity measurements as a vector
+## Get the names of the various activity measurements
 
 measurements <- features[,2]
 
