@@ -47,11 +47,10 @@ Determine the average of each variable measured for each activity type and each 
 
 Step 8 
 ------
-Create a tidy dataset out of the dataset generated in Step 7.  Rather than have each variable measured as column names, a new column is created called Measurement_Type to store the column names representing the various measurements taken for each activity type and subject.  The column storing the mean of each variable is renamed Average.
+Create a tidy dataset out of the dataset generated in Step 7.  Since all the values represent an average of a specific measurement type, rather than have each variable measured displayed as column names, a new column is created called Measurement_Type to store the column names representing the various measurements taken for each activity type and subject.  The column storing the mean of each variable is renamed Average.
 
 
 Notes: 
-======
-The tidy dataset was written to a file using the command:
+------
+The tidy dataset (output from Step 8) was written to a file using the command:
 - write.table(tidySet, file="course4assign.txt",sep=",",rownames=FALSE,col,names= TRUE)
-
