@@ -10,7 +10,7 @@ Summary of analysis performed to create a tidy dataset with the average of each 
 
 ### Step 1
 ----------
-Read in the following files from the source dataset (**assumes the files have already been unzipped into the working directory from which the R script will be run**):
+Read in the following files from the source dataset (**assumes the files have already been unzipped into the working directory**):
 - __features.txt__: 561 features representing the measurements taken     
 - __activity_labels.txt__ : list of activities tracked and its activity number
 - __X_train.txt__ : training data measurements for each of the 561 variables
