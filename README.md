@@ -56,4 +56,4 @@ Create a tidy dataset out of the dataset generated in Step 7.  Since all the val
 ### Notes: 
 ----------
 The tidy dataset (output from Step 8) was written to a file using the command:
-- write.table(tidySet, file="tidy_dataset.txt",sep=",")
+- write.table(tidySet, file="tidy_dataset.txt",sep=",",row.names=FALSE,col.names=TRUE)
